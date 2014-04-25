@@ -13,19 +13,19 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
- You should create one R script called run_analysis.R that does the following. 	
- 1.Merges the training and the test sets to create one data set.
- 2.Extracts only the measurements on the mean and standard deviation for each measurement. 
- 3.Uses descriptive activity names to name the activities in the data set
- 4.Appropriately labels the data set with descriptive activity names. 
+ You should create one R script called run_analysis.R that does the following:  
+ 1.Merges the training and the test sets to create one data set.  
+ 2.Extracts only the measurements on the mean and standard deviation for each measurement.  
+ 3.Uses descriptive activity names to name the activities in the data set.  
+ 4.Appropriately labels the data set with descriptive activity names.  
  5.Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-The project was completed by the following steps:
-1.Read features and activity_labels
-2.Remove the "-" ,  "(" and ")" (regulization)
-3.Read train and test subject and combine
-4.Read train and test subject and combine
-5.Read train and test subject and combine 
-6.Average for each activity and each subject and write to working directory
-7.Output the tidy data
+ The project was completed by the following steps:  
+ 1.Read features and activity_labels  
+ 2.Remove the "-" ,  "(" and ")" (regulization)  
+ 3.Read train and test subject and combine  
+ 4.Read X_train, X_test, Y_train and Y_test data sets.
+ 5.Combine X, subject and Y, then combine train and test to the fulldata
+ 6.Average for each activity and each subject and write to working directory  
+ 7.Output the tidy data
